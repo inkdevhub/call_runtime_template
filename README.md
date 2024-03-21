@@ -1,6 +1,6 @@
 # Call-runtime example
 
-Call-runtime is currently an unstable feature of pallet-contracts and ink!. This documentation serves as an example for educational purposes only. Functionality and implementation details might change before the feature becomes stable.
+This documentation serves as an example for educational purposes only.
 
 Smart contracts, by themselves, are limited to manipulating their own storage and performing internal computations. Call-runtime allows them to interact with other parts of the blockchain system, provided by the runtime. This enables contracts to leverage functionalities like token transfers (using the Balances pallet), setting account balances (using the Balances pallet), or interacting with on-chain oracles (using a custom pallet).
 
